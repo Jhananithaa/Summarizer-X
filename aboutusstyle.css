@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: #000; /* Ensuring full screen with black background */
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+section.content {
+    flex-grow: 1;
+    padding: 40px 20px;
+    background: none;
+    color: #fff;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    font-size: 1.8em;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #ccc;
+}
+/* Meet the Team section with attractive card styling */
+.team-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+.avatar {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #bbb;
+}
+
+
+footer {
+    padding: 15px;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-button {
+    background-color: #474747;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.nav-button:hover {
+    background-color: #5a5a5a;
+}
