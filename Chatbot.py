@@ -47,7 +47,7 @@ st.set_page_config(
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "ADD GROQ API KEY HERE"
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 client = Groq()
 
