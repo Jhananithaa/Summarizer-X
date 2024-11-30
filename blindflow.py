@@ -91,7 +91,7 @@ def process_with_llm(content, action):
     """
     Processes the content with the LLM for summarization, rephrasing, or translation.
     """
-    client = Groq(api_key="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")
+    client = Groq(api_key="ADD GROQ API KEY HERE")
     message = f"{action}: {content}"
     truncated_message = truncate_content(message)
 
